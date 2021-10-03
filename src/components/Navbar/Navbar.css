@@ -1,0 +1,18 @@
+.items {
+  list-style: none;
+  margin-right: 30px;
+  font-size: 22px;
+  font-weight: 500;
+  color: rgb(218, 214, 214);
+  cursor: pointer;
+  padding: 5px;
+  text-decoration: none;
+}
+.items:hover {
+  color: #ffc107;
+}
+.navbar-container{
+    background-color: #6610f2;
+    margin-left: 30px;
+    margin-right: 30px;
+}

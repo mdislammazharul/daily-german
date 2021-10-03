@@ -1,0 +1,12 @@
+body{
+    background-image: url(https://yastatic.net/s3/lpc/d0833928-e0fe-49af-afcf-68ad84ee2382.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: .95;
+}
+.header{
+    background-color: #6610f2;
+    margin-left: 30px;
+    margin-right: 30px;
+}
