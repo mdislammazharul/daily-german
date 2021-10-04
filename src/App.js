@@ -15,6 +15,7 @@ import Contact from './components/Contact/Contact';
 import Navbar from './components/Navbar/Navbar';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import Enrollment from './components/Enrollment/Enrollment';
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
           </Route>
           <Route exact path="/contact">
             <Contact></Contact>
+          </Route>
+          <Route exact path="/enrollment">
+            <Enrollment></Enrollment>
           </Route>
           <Route path="*">
             <NotFound></NotFound>

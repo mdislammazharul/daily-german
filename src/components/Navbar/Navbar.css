@@ -9,11 +9,15 @@
   text-decoration: none;
 }
 .items:hover {
-  color: #222831;
+  color: #F4ABC4;
 }
 .navbar-container{
-    background-color: #F1D4D4;
+    background-color: #F4ABC4;
 }
 .logo-img{
   width: 250px;
+}
+.nav-heading li{
+  font-size: 25px;
+  color: #7D1935;
 }

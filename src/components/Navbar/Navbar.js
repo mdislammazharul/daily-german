@@ -14,12 +14,15 @@ const Navbar = () => {
                         </div>
                         <div className="col-md-10">
                             <div>
-                                <ul className="d-flex align-items-end justify-content-end">
+                                <ul className="d-flex align-items-end justify-content-end nav-heading">
                                     <Link to="/home" className="items">
                                         <li>Home</li>
                                     </Link>
                                     <Link to="/services" className="items">
                                         <li>Services</li>
+                                    </Link>
+                                    <Link to="/enrollment" className="items">
+                                        <li>Enrollment</li>
                                     </Link>
                                     <Link to="/about" className="items">
                                         <li>About Us</li>

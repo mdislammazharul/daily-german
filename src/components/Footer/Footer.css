@@ -1,5 +1,12 @@
 .footer-container{
-    background-color: #6610f2;
-    margin-left: 30px;
-    margin-right: 30px;
+    background-color: #F1D4D4;
+    position: absolute;
+    margin-bottom: 0px;
+    width: 100%;
+    color: #7D1935;
+}
+
+.link a{
+    text-decoration: none;
+    color: crimson;
 }

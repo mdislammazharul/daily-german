@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Button } from 'react-bootstrap';
+import Rating from 'react-rating';
+import { Link } from 'react-router-dom';
 import './Services.css'
 
 const Services = () => {
     const [services, setServices] = useState([]);
+
 
     useEffect(() => {
         fetch('./services.JSON')
@@ -11,19 +14,29 @@ const Services = () => {
             .then(data => setServices(data))
     }, [])
     return (
-        <div className="row">
+        <div className="row service-container pb-5">
+            <h1 className="my-5 home-heading">Our Services</h1>
             {
                 services.map(service =>
-                    <div className="col-md-4">
-                        <Card style={{ width: '18rem' }}>
+                    <div className="col-md-3 d-flex justify-content-center">
+                        <Card className="card-style mb-5" style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={service.img} />
                             <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
-                                </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
+                                <Card.Text><strong>Course Type: </strong>{service.category}</Card.Text>
+                                <Card.Text><strong>Course Duration: </strong> {service.duration} Months</Card.Text>
+                                <Card.Text><strong>Instructor Name: </strong> {service.location}</Card.Text>
+                                <Card.Text><strong>Max Student: </strong> {service.students}</Card.Text>
+                                <Card.Text><strong>Tuition Fee: </strong> {service.cost}</Card.Text>
+                                <br /><br />
+                                <Card.Text><strong>Rating: </strong><br /><Rating
+                                    initialRating={service.star}
+                                    emptySymbol="far fa-star icon-color"
+                                    fullSymbol="fas fa-star icon-color"
+                                    readonly >
+                                </Rating></Card.Text>
+                                <Link to="/enrollment">
+                                    <Button className="mt-5" variant="primary">Enroll Now</Button>
+                                </Link>
                             </Card.Body>
                         </Card>
                     </div>

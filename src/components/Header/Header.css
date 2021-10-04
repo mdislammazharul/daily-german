@@ -1,6 +1,10 @@
 .header{
-    background-color: #C060A1;
+    background-color: #F1D4D4;
 }
 h1{
-    color: #000000;
+    color: #7D1935;
+}
+.header h4{
+    color: black;
+    margin-bottom: 0px;
 }

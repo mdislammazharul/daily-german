@@ -3,5 +3,11 @@ body {
 }
 
 .home-container{
-    background-color: aquamarine;
+    background-color: #F1D4D4;
+}
+.home-container h1{
+  color: #7D1935;
+}
+.home-heading{
+  font-size: 80px;
 }
