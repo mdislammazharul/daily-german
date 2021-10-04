@@ -8,7 +8,7 @@ Use the link to open the Live Site of this project.
 [Daily German](https://daily-german-mdislammazharul.netlify.app)
 
 ```bash
-rock-the-throne-mdislammazharul.netlify.app
+daily-german-mdislammazharul.netlify.app
 ```
 
 ## About the Site
