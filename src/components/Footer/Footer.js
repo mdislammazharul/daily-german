@@ -17,11 +17,11 @@ const Footer = () => {
                         <div className="col-md-3 mb-md-0 mb-3 link">
                             <h5>Follow Us</h5>
                             <div>
-                                <i class="fab fa-facebook-square mx-3"></i>
-                                <i class="fab fa-facebook-messenger mx-3"></i>
-                                <i class="fab fa-whatsapp mx-3"></i>
-                                <i class="fab fa-instagram mx-3"></i>
-                                <i class="fab fa-twitter mx-3"></i>
+                                <i className="fab fa-facebook-square mx-3"></i>
+                                <i className="fab fa-facebook-messenger mx-3"></i>
+                                <i className="fab fa-whatsapp mx-3"></i>
+                                <i className="fab fa-instagram mx-3"></i>
+                                <i className="fab fa-twitter mx-3"></i>
                             </div>
                         </div>
                     </div>

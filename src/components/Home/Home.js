@@ -37,11 +37,11 @@ const Home = () => {
             <h1 className="pt-5 m-5 home-heading">Our Instructors</h1>
             <div className="row">
                 {
-                    students.map(student => <HappyLearners student={student}></HappyLearners>)
+                    students.map(student => <HappyLearners key={student.key} student={student}></HappyLearners>)
                 }
             </div>
             <HomeServices></HomeServices>
-        </div>
+        </div >
     );
 };
 

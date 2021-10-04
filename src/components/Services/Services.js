@@ -18,7 +18,7 @@ const Services = () => {
             <h1 className="my-5 home-heading">Our Services</h1>
             {
                 services.map(service =>
-                    <div className="col-md-3 d-flex justify-content-center">
+                    <div key={service.key} className="col-md-3 d-flex justify-content-center">
                         <Card className="card-style mb-5" style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={service.img} />
                             <Card.Body>
@@ -27,7 +27,7 @@ const Services = () => {
                                 <Card.Text><strong>Course Type: </strong>{service.category}</Card.Text>
                                 <Card.Text><strong>Course Duration: </strong> {service.duration} Months</Card.Text>
                                 <Card.Text><strong>Max Student: </strong> {service.students}</Card.Text>
-                                <Card.Text><strong>Tuition Fee: </strong> {service.cost}</Card.Text>
+                                <Card.Text><strong>Tuition Fee: </strong> $ {service.cost}</Card.Text>
                                 <br /><br />
                                 <Card.Text><strong>Rating: </strong><br /><Rating
                                     initialRating={service.star}

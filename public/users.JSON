@@ -1,5 +1,6 @@
 [
     {
+        "key": 1,
         "gender": "female",
         "name": {
             "title": "Mrs",
@@ -56,6 +57,7 @@
         "nat": "IE"
     },
     {
+        "key": 2,
         "gender": "female",
         "name": {
             "title": "Mrs",
@@ -112,6 +114,7 @@
         "nat": "FI"
     },
     {
+        "key": 3,
         "gender": "male",
         "name": {
             "title": "Mr",

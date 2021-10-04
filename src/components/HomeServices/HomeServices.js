@@ -12,14 +12,12 @@ const HomeServices = () => {
             .then(data => setHomeService(data))
     }, [])
 
-    console.log(homeService);
-
     return (
         <div className="row mb-5">
             <h1 className="pt-5 my-5 home-heading">Services</h1>
             {
                 homeService.map(hs =>
-                    <div className="col-md-3 d-flex justify-content-center">
+                    <div key={hs.key} className="col-md-3 d-flex justify-content-center">
                         <Card className="card-style" style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={hs.img} />
                             <Card.Body>
