@@ -1,0 +1,8 @@
+.user-img{
+    width: 150px;
+    border-radius: 50%;
+}
+.card-style{
+    display: flex;
+    align-items: center;
+}

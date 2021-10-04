@@ -10,7 +10,6 @@ import {
 import About from './components/About/About';
 import Home from './components/Home/Home';
 import Services from './components/Services/Services';
-import ScienceNews from './components/ScienceNews/ScienceNews';
 import NotFound from './components/NotFound/NotFound';
 import Contact from './components/Contact/Contact';
 import Navbar from './components/Navbar/Navbar';
@@ -35,9 +34,6 @@ function App() {
           </Route>
           <Route exact path="/services">
             <Services></Services>
-          </Route>
-          <Route exact path="/scienceNews">
-            <ScienceNews></ScienceNews>
           </Route>
           <Route exact path="/contact">
             <Contact></Contact>

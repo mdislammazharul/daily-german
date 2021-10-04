@@ -1,22 +1,21 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Button } from 'react-bootstrap';
-import './Services.css'
 
-const Services = () => {
-    const [services, setServices] = useState([]);
-
+const HomeServices = () => {
+    const [homeService, setHomeService] = useState([])
     useEffect(() => {
-        fetch('./services.JSON')
+        fetch('./homeServices.JSON')
             .then(res => res.json())
-            .then(data => setServices(data))
+            .then(data => setHomeService(data))
     }, [])
     return (
         <div className="row">
+            <h1>Services</h1>
             {
-                services.map(service =>
-                    <div className="col-md-4">
+                homeService.map(hs =>
+                    <div className="col-md-3">
                         <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={service.img} />
+                            <Card.Img variant="top" src={hs.img} />
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>
                                 <Card.Text>
@@ -33,4 +32,4 @@ const Services = () => {
     );
 };
 
-export default Services;
+export default HomeServices;

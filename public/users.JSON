@@ -1,0 +1,170 @@
+[
+    {
+        "gender": "female",
+        "name": {
+            "title": "Mrs",
+            "first": "Mary",
+            "last": "Fleming"
+        },
+        "location": {
+            "street": {
+                "number": 1893,
+                "name": "Station Road"
+            },
+            "city": "Tralee",
+            "state": "South Dublin",
+            "country": "Ireland",
+            "postcode": 68560,
+            "coordinates": {
+                "latitude": "18.9791",
+                "longitude": "90.5298"
+            },
+            "timezone": {
+                "offset": "-7:00",
+                "description": "Mountain Time (US & Canada)"
+            }
+        },
+        "email": "mary.fleming@example.com",
+        "login": {
+            "uuid": "b4923cec-a6fb-4eff-9453-80323cacf72f",
+            "username": "brownleopard143",
+            "password": "flower2",
+            "salt": "y8R597Is",
+            "md5": "39d48396a9e2f43f406fa2bf8c99d640",
+            "sha1": "1de7c4e476f84e139d74e5e12b836c646bb12a19",
+            "sha256": "8835db30f333bed256fb2b5c258470f1503246c4fd22d019c73029c623dbed18"
+        },
+        "dob": {
+            "date": "1955-04-28T11:45:29.658Z",
+            "age": 66
+        },
+        "registered": {
+            "date": "2004-07-05T08:29:50.509Z",
+            "age": 17
+        },
+        "phone": "061-679-4193",
+        "cell": "081-790-9908",
+        "id": {
+            "name": "PPS",
+            "value": "8454689T"
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/21.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/21.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/21.jpg"
+        },
+        "nat": "IE"
+    },
+    {
+        "gender": "female",
+        "name": {
+            "title": "Mrs",
+            "first": "Hilla",
+            "last": "Hokkanen"
+        },
+        "location": {
+            "street": {
+                "number": 2845,
+                "name": "Hämeentie"
+            },
+            "city": "Tuusniemi",
+            "state": "Åland",
+            "country": "Finland",
+            "postcode": 96534,
+            "coordinates": {
+                "latitude": "-14.8202",
+                "longitude": "59.9299"
+            },
+            "timezone": {
+                "offset": "+5:00",
+                "description": "Ekaterinburg, Islamabad, Karachi, Tashkent"
+            }
+        },
+        "email": "hilla.hokkanen@example.com",
+        "login": {
+            "uuid": "429b44ef-ff4b-4b2a-8218-37e7f670a8ab",
+            "username": "lazyelephant525",
+            "password": "bass",
+            "salt": "7qRTjOak",
+            "md5": "1d472ac090965caa3b17568022aab673",
+            "sha1": "bfdd2b41d50dddc48abe0a71315a42e82a435b9f",
+            "sha256": "fd9e9593b0970ead4fa3f457f3217100b330a1ec5b6047e3676114735170b41b"
+        },
+        "dob": {
+            "date": "1992-11-06T13:48:53.680Z",
+            "age": 29
+        },
+        "registered": {
+            "date": "2010-06-27T07:08:56.931Z",
+            "age": 11
+        },
+        "phone": "05-406-567",
+        "cell": "047-872-67-22",
+        "id": {
+            "name": "HETU",
+            "value": "NaNNA062undefined"
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/96.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/96.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/96.jpg"
+        },
+        "nat": "FI"
+    },
+    {
+        "gender": "male",
+        "name": {
+            "title": "Mr",
+            "first": "Deniz",
+            "last": "Koç"
+        },
+        "location": {
+            "street": {
+                "number": 3930,
+                "name": "Doktorlar Cd"
+            },
+            "city": "Bayburt",
+            "state": "Kütahya",
+            "country": "Turkey",
+            "postcode": 95090,
+            "coordinates": {
+                "latitude": "70.2469",
+                "longitude": "-66.5068"
+            },
+            "timezone": {
+                "offset": "-6:00",
+                "description": "Central Time (US & Canada), Mexico City"
+            }
+        },
+        "email": "deniz.koc@example.com",
+        "login": {
+            "uuid": "38362d8f-277c-49c0-a3ad-5dd5694bff65",
+            "username": "redswan428",
+            "password": "charger",
+            "salt": "iCEWJWd6",
+            "md5": "8a33dd24e3e12c785897127f6b461289",
+            "sha1": "932b402ea67d9caa0486c4769b46783eb7e96bab",
+            "sha256": "77787f0eb54ece663bd23ddbe4ab75fc8bfad4d006165b0149281463718af37b"
+        },
+        "dob": {
+            "date": "1991-05-27T21:26:24.762Z",
+            "age": 30
+        },
+        "registered": {
+            "date": "2017-03-16T08:37:53.092Z",
+            "age": 4
+        },
+        "phone": "(352)-799-3320",
+        "cell": "(966)-830-3548",
+        "id": {
+            "name": "",
+            "value": null
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/37.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/37.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/37.jpg"
+        },
+        "nat": "TR"
+    }
+]
