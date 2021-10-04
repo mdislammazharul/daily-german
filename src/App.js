@@ -4,9 +4,11 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
+
+// total 9 components included here
+
 import About from './components/About/About';
 import Home from './components/Home/Home';
 import Services from './components/Services/Services';

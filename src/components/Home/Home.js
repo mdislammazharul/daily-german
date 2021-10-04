@@ -5,6 +5,8 @@ import instructor from '../../images/instructor.png'
 import HappyLearners from '../HappyLearners/HappyLearners';
 import HomeServices from '../HomeServices/HomeServices';
 
+// Home page has two components inside it. 1. HappyLerners & 2. Homeservices
+
 const Home = () => {
     const [students, setStudents] = useState([]);
 

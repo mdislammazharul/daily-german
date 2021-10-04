@@ -23,11 +23,12 @@ const HomeServices = () => {
                         <Card className="card-style" style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={hs.img} />
                             <Card.Body>
+                                <Card.Title className="pb-2"><strong>Course Title: </strong>{hs.category}</Card.Title>
+                                <Card.Text><strong>Instructor Name: </strong> {hs.instructor}</Card.Text>
                                 <Card.Text><strong>Course Type: </strong>{hs.category}</Card.Text>
                                 <Card.Text><strong>Course Duration: </strong> {hs.duration} Months</Card.Text>
-                                <Card.Text><strong>Instructor Name: </strong> {hs.location}</Card.Text>
                                 <Card.Text><strong>Max Student: </strong> {hs.students}</Card.Text>
-                                <Card.Text><strong>Tuition Fee: </strong> {hs.cost}</Card.Text>
+                                <Card.Text><strong>Tuition Fee: </strong> $ {hs.cost}</Card.Text>
                                 <br /><br />
                                 <Card.Text><strong>Rating: </strong><br /><Rating
                                     initialRating={hs.star}
@@ -35,6 +36,7 @@ const HomeServices = () => {
                                     fullSymbol="fas fa-star icon-color"
                                     readonly >
                                 </Rating></Card.Text>
+                                {/* use Link to redirect the button press to Enroll now page */}
                                 <Link to="/enrollment">
                                     <Button className="mt-5" variant="primary">Enroll Now</Button>
                                 </Link>

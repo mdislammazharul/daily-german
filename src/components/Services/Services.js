@@ -22,9 +22,10 @@ const Services = () => {
                         <Card className="card-style mb-5" style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={service.img} />
                             <Card.Body>
+                                <Card.Title className="pb-2"><strong>Course Title: </strong>{service.category}</Card.Title>
+                                <Card.Text><strong>Instructor Name: </strong> {service.instructor}</Card.Text>
                                 <Card.Text><strong>Course Type: </strong>{service.category}</Card.Text>
                                 <Card.Text><strong>Course Duration: </strong> {service.duration} Months</Card.Text>
-                                <Card.Text><strong>Instructor Name: </strong> {service.location}</Card.Text>
                                 <Card.Text><strong>Max Student: </strong> {service.students}</Card.Text>
                                 <Card.Text><strong>Tuition Fee: </strong> {service.cost}</Card.Text>
                                 <br /><br />
@@ -34,6 +35,7 @@ const Services = () => {
                                     fullSymbol="fas fa-star icon-color"
                                     readonly >
                                 </Rating></Card.Text>
+                                {/* use Link to redirect button press into enrollment page */}
                                 <Link to="/enrollment">
                                     <Button className="mt-5" variant="primary">Enroll Now</Button>
                                 </Link>

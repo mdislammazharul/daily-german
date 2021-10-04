@@ -2,111 +2,111 @@
     {
         "key": "B002FL8IYK",
         "category": "Basic",
-        "location": "Miles",
+        "instructor": "Max Smith",
         "duration": 12,
-        "students": 155000,
+        "students": 155,
         "img": "./basic.PNG",
         "star": 4.6,
-        "cost": 6641
+        "cost": 664
     },
     {
         "key": "B002HL8IYK",
         "category": "Medium",
-        "location": "Sironamhin",
+        "instructor": "Andres Muler",
         "duration": 7,
-        "students": 160000,
+        "students": 160,
         "img": "./medium.PNG",
         "star": 4.5,
-        "cost": 8423
+        "cost": 842
     },
     {
         "key": "B002IL8IYK",
         "category": "Advanced",
-        "location": "Sohojia",
+        "instructor": "Hanna Hannover",
         "duration": 3,
-        "students": 130000,
+        "students": 130,
         "img": "./advanced.PNG",
         "star": 4.3,
-        "cost": 4342
+        "cost": 434
     },
     {
         "key": "B002JL8IYK",
         "category": "Premium",
-        "location": "Souls",
+        "instructor": "Jonas Volgar",
         "duration": 13,
-        "students": 120000,
+        "students": 120,
         "img": "./premium.PNG",
         "star": 4.1,
-        "cost": 3322
+        "cost": 332
     },
     {
         "key": "B002KL8IYK",
         "category": "Proffesional",
-        "location": "Warfez",
+        "instructor": "Jonas Kahnwald",
         "duration": 11,
-        "students": 200000,
+        "students": 200,
         "img": "./professional.PNG",
         "star": 4.9,
-        "cost": 9991
+        "cost": 999
     },
     {
         "key": "B002RL8IYK",
         "category": "A1",
-        "location": "Arbovirus",
+        "instructor": "Charl Doppler",
         "duration": 6,
-        "students": 120000,
+        "students": 120,
         "img": "./A1.PNG",
         "star": 4.3,
-        "cost": 3245
+        "cost": 324
     },
     {
         "key": "B002AL8IYK",
         "category": "A2",
-        "location": "Artcell",
+        "instructor": "Martha Nielsen",
         "duration": 7,
-        "students": 160000,
+        "students": 160,
         "img": "./A2.PNG",
         "star": 4.6,
-        "cost": 7745
+        "cost": 774
     },
     {
         "key": "B002BL8IYK",
         "category": "B1",
-        "location": "Aurthohin",
+        "instructor": "Han Kahnwald",
         "duration": 8,
-        "students": 130000,
+        "students": 130,
         "img": "./B1.PNG",
         "star": 4.4,
-        "cost": 5245
+        "cost": 524
     },
     {
         "key": "B002CL8IYK",
         "category": "B2",
-        "location": "Black",
+        "instructor": "Kat Nielsen",
         "duration": 4,
-        "students": 120000,
+        "students": 120,
         "img": "./B2.PNG",
         "star": 4.1,
-        "cost": 2245
+        "cost": 224
     },
     {
         "key": "B002DL8IYK",
         "category": "C1",
-        "location": "Chirkut",
+        "instructor": "Peter Doppler",
         "duration": 7,
-        "students": 140000,
+        "students": 140,
         "img": "./C1.PNG",
         "star": 4.8,
-        "cost": 8890
+        "cost": 889
     },
     {
         "key": "B002EL8IYK",
         "category": "C2",
-        "location": "Meghdol",
+        "instructor": "Magnus Nielson",
         "duration": 4,
-        "students": 150000,
+        "students": 150,
         "img": "./C2.PNG",
         "star": 4.6,
-        "cost": 6757
+        "cost": 675
     }
 ]
