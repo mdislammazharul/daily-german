@@ -5,7 +5,7 @@
         "instructor": "Max Smith",
         "duration": 12,
         "students": 155,
-        "img": "./basic.PNG",
+        "img": "./basic.jpg",
         "star": 4.6,
         "cost": 664
     },
@@ -15,7 +15,7 @@
         "instructor": "Andres Muler",
         "duration": 7,
         "students": 160,
-        "img": "./medium.PNG",
+        "img": "./medium.jpg",
         "star": 4.5,
         "cost": 842
     },
@@ -25,7 +25,7 @@
         "instructor": "Hanna Hannover",
         "duration": 3,
         "students": 130,
-        "img": "./advanced.PNG",
+        "img": "./advanced.jpg",
         "star": 4.3,
         "cost": 434
     },
@@ -35,7 +35,7 @@
         "instructor": "Jonas Volgar",
         "duration": 13,
         "students": 120,
-        "img": "./premium.PNG",
+        "img": "./premium.jpg",
         "star": 4.1,
         "cost": 332
     },
@@ -45,7 +45,7 @@
         "instructor": "Jonas Kahnwald",
         "duration": 11,
         "students": 200,
-        "img": "./professional.PNG",
+        "img": "./professional.jpg",
         "star": 4.9,
         "cost": 999
     },
@@ -55,7 +55,7 @@
         "instructor": "Charl Doppler",
         "duration": 6,
         "students": 120,
-        "img": "./A1.PNG",
+        "img": "./A1.jpg",
         "star": 4.3,
         "cost": 324
     },
@@ -75,7 +75,7 @@
         "instructor": "Han Kahnwald",
         "duration": 8,
         "students": 130,
-        "img": "./B1.PNG",
+        "img": "./B1.jpg",
         "star": 4.4,
         "cost": 524
     },
@@ -85,7 +85,7 @@
         "instructor": "Kat Nielsen",
         "duration": 4,
         "students": 120,
-        "img": "./B2.PNG",
+        "img": "./B2.jpg",
         "star": 4.1,
         "cost": 224
     },
@@ -95,7 +95,7 @@
         "instructor": "Peter Doppler",
         "duration": 7,
         "students": 140,
-        "img": "./C1.PNG",
+        "img": "./C1.jpg",
         "star": 4.8,
         "cost": 889
     },

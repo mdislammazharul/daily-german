@@ -13,7 +13,7 @@ const Navbar = () => {
                             <img className="logo-img" src={logo} alt="" />
                         </div>
                         <div className="col-md-10">
-                            <div>
+                            <div className="nav-link">
                                 <ul className="d-flex align-items-end justify-content-end nav-heading">
                                     <Link to="/home" className="items">
                                         <li>Home</li>

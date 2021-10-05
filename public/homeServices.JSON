@@ -5,7 +5,7 @@
         "instructor": "Max Smith",
         "duration": 12,
         "students": 155,
-        "img": "./basic.PNG",
+        "img": "./basic.jpg",
         "star": 4.6,
         "cost": 664
     },
@@ -15,7 +15,7 @@
         "instructor": "Andres Muler",
         "duration": 7,
         "students": 160,
-        "img": "./medium.PNG",
+        "img": "./medium.jpg",
         "star": 4.5,
         "cost": 842
     },
@@ -25,7 +25,7 @@
         "instructor": "Hanna Hannover",
         "duration": 3,
         "students": 130,
-        "img": "./advanced.PNG",
+        "img": "./advanced.jpg",
         "star": 4.3,
         "cost": 434
     },
@@ -35,7 +35,7 @@
         "instructor": "Jonas Volgar",
         "duration": 13,
         "students": 120,
-        "img": "./premium.PNG",
+        "img": "./premium.jpg",
         "star": 4.1,
         "cost": 332
     }

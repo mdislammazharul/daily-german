@@ -15,9 +15,12 @@
     background-color: #F4ABC4;
 }
 .logo-img{
-  width: 250px;
+  width: 180px;
 }
 .nav-heading li{
   font-size: 25px;
   color: #7D1935;
+}
+.nav-link{
+  margin-top: 20px;
 }

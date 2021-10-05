@@ -52,7 +52,7 @@
         "picture": {
             "large": "https://randomuser.me/api/portraits/women/21.jpg",
             "medium": "https://randomuser.me/api/portraits/med/women/21.jpg",
-            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/21.jpg"
+            "thumbnail": "./female-1.jpg"
         },
         "nat": "IE"
     },
@@ -109,7 +109,7 @@
         "picture": {
             "large": "https://randomuser.me/api/portraits/women/96.jpg",
             "medium": "https://randomuser.me/api/portraits/med/women/96.jpg",
-            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/96.jpg"
+            "thumbnail": "female-2.jpg"
         },
         "nat": "FI"
     },
@@ -166,7 +166,7 @@
         "picture": {
             "large": "https://randomuser.me/api/portraits/men/37.jpg",
             "medium": "https://randomuser.me/api/portraits/med/men/37.jpg",
-            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/37.jpg"
+            "thumbnail": "male.jpg"
         },
         "nat": "TR"
     }
